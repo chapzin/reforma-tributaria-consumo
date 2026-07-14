@@ -8,7 +8,7 @@ Portal educacional, em português, sobre a EC 132/2023, a LC 214/2025 já consol
 
 - trilha principal em quatro unidades (Reforma Tributária do Consumo);
 - **Programa de Especialização para Analista Fiscal (180h)** — 13 módulos (CTN, ICMS, PIS/Cofins, ISS, IPI, SPED, auditoria digital, retenções, compliance, RTC);
-- laboratório e integração com **[FlowParse](https://flowparse.com.br)** (auditoria XML×SPED);
+- laboratório e integração com **[FlowParse](https://auditoriafiscal.duckdns.org/)** (auditoria XML×SPED — contrate em auditoriafiscal.duckdns.org);
 - módulos especiais de Simples Nacional, locação de imóveis e motopeças;
 - comparativos, mapas mentais, casos, exercícios comentados e checklists;
 - fontes oficiais, leitura profissional e sinais das comunidades de software fiscal;

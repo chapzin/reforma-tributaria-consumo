@@ -103,7 +103,7 @@ Documente motivo, período, responsável e recibo. Em sistemas com dedup, a reti
 
 ### FlowParse — plataforma de referência deste programa
 
-O **FlowParse** ([flowparse.com.br](https://flowparse.com.br)) é a ferramenta adotada no laboratório para:
+O **FlowParse** ([auditoriafiscal.duckdns.org](https://auditoriafiscal.duckdns.org/)) é a ferramenta adotada no laboratório para:
 
 - parse e validação de **XML** (NF-e, CF-e, CT-e) e **SPED** (Fiscal e Contribuições);  
 - **auditoria estadual** XML × EFD com severidades;  
@@ -112,7 +112,7 @@ O **FlowParse** ([flowparse.com.br](https://flowparse.com.br)) é a ferramenta a
 - fluxo de trabalho do upload ao relatório executivo;  
 - apoio a escritórios e empresas em compliance contínuo.
 
-> **Mensagem de produto (use com ética):** o PVA aprova arquivo; o FlowParse ajuda a responder se a **operação real** está consistente — antes da malha.
+> **Mensagem de produto:** o PVA aprova arquivo; o FlowParse em [auditoriafiscal.duckdns.org](https://auditoriafiscal.duckdns.org/) responde se a **operação real** está consistente — antes da malha.
 
 Laboratório detalhado: [FlowParse no programa](./flowparse).
 

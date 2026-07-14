@@ -1,128 +1,168 @@
-# Laboratório FlowParse — auditoria digital na prática
+# FlowParse — a auditoria fiscal que encontra o erro **antes** da malha
 
-Ferramenta de referência do **Programa de Especialização para Analista Fiscal** para transformar XML e SPED em **parecer com evidência**.
+> **O PVA aprovou o SPED. E agora?**  
+> Agora começa o trabalho de verdade: cruzar XML × escrituração × contribuições × ECF e transformar divergência em **parecer com valor e prazo**.
 
----
+**Plataforma ao vivo:** [https://auditoriafiscal.duckdns.org/](https://auditoriafiscal.duckdns.org/)
 
-## O problema que o analista vive
-
-> O PVA disse que o arquivo está válido.  
-> A malha e o cruzamento disseram que a operação não está.
-
-Validar leiaute **não** garante:
-
-- que toda NF-e da SEFAZ foi escriturada;  
-- que valores e impostos batem com o XML;  
-- que créditos de PIS/Cofins são cabíveis;  
-- que a ECF conversa com a realidade das receitas;  
-- que inventário e movimentação fecham.
-
-A comunidade de software fiscal e as práticas de e-auditoria convergem no mesmo ponto: **cruzar obrigações entre si e com a base de documentos eletrônicos** antes que o Fisco o faça.
+> ### [Quero auditar minha empresa agora →](https://auditoriafiscal.duckdns.org/)
 
 ---
 
-## O que é o FlowParse
+## Por que empresas e escritórios estão contratando agora
 
-O **FlowParse** é uma plataforma para **análise, processamento e validação de documentos fiscais** (XML, SPED e correlatos), com foco em automação de processos fiscais e tributários.
+A Receita, as SEFAZ e os cruzamentos automáticos **já leem** o que você transmite. Quem ainda “fecha no PVA e torce” está jogando com:
 
-### Capacidades centrais
-
-| Capacidade | Para o analista em formação |
+| Risco silencioso | O que custa de verdade |
 |---|---|
-| Parse de **NF-e, CF-e, CT-e** | lastro da operação |
-| Análise de **SPED Fiscal e Contribuições** | escrituração estadual e federal |
-| **Auditoria estadual** XML × EFD | achar não escriturado, divergências, riscos de malha |
-| **Auditoria federal** | PIS/Cofins, créditos, ECF, saldo negativo, PER/DCOMP |
-| Demonstrativos | apuração e créditos com número para o parecer |
-| Exportação **Excel** | dossiê entregável ao cliente/gestão |
-| APIs e processamento em fila | escala multi-CNPJ / escritório |
+| NF-e na SEFAZ **fora** do SPED | intimação, multa, retrabalho de retificadora |
+| Crédito de PIS/Cofins **indevido** | glosa + encargos + PER/DCOMP negado |
+| Crédito **deixado na mesa** | caixa que nunca entrou |
+| Inventário e movimentação incoerentes | malha de estoque / omissão indiciária |
+| Fechamento dependente de **um analista herói** | risco operacional e de sucessão |
+| Reforma Tributária em 2026–2033 **sem legado limpo** | dualidade ICMS+IBS em cima de base suja |
 
-Stack (visão produto): Go, PostgreSQL, filas (RabbitMQ), armazenamento de objetos, Excel — arquitetura pensada para volume fiscal real.
-
-### Site
-
-**[https://flowparse.com.br](https://flowparse.com.br)**
+**O FlowParse existe para inverter a ordem:** achar o problema no **seu** fechamento — não no ofício do Fisco.
 
 ---
 
-## Por que o programa adota o FlowParse
+## O que você ganha ao contratar
 
-1. **Método ensinável** — preflight → análise → severidade → parecer (igual ao [Módulo 9](./m09-auditoria-digital)).  
-2. **Dois eixos** — estadual e federal, como o mercado de auditoria digital exige.  
-3. **Anti-falso-positivo** — CFOP espelhado, NF avulsa, desoneração, inventário etc. entram no treino.  
-4. **Compliance contínuo** — serve ao [Módulo 12](./m12-compliance), não só ao “projeto anual”.  
-5. **Ponte com a RTC** — enquanto ICMS/PIS existem, a auditoria de legado é obrigatória; a plataforma também acompanha a agenda da reforma (classificações, radar normativo).
+### 1. Visão que o PVA não tem
 
----
+O validador oficial confere **leiaute**. O FlowParse confere **realidade fiscal**:
 
-## Roteiro de laboratório (aluno)
+- XML de NF-e, CF-e e CT-e  
+- SPED Fiscal (EFD ICMS/IPI)  
+- SPED Contribuições (PIS/Cofins)  
+- cruzamentos **estaduais** e **federais**  
+- demonstrativos e exportação **Excel** pronta para dossiê  
 
-### Laboratório A — Auditoria estadual (4h)
+### 2. Método de auditoria profissional (não “relatório genérico”)
 
-1. Escolha um CNPJ de estudo (dados fictícios ou base autorizada).  
-2. Carregue XML e EFD do período.  
-3. Rode **preparação/preflight** e anote cobertura (meses sem SPED ou sem XML).  
-4. Execute a análise completa.  
-5. Filtre **ERRO** e calcule materialidade.  
-6. Separe 3 falsos-positivos potenciais da lista de alertas.  
-7. Exporte Excel e redija parecer de 1–2 páginas (modelo do M9).
+```text
+Preflight (cobertura de meses e tabelas)
+    → Análise completa
+    → Severidade ERRO / ALERTA / INFO
+    → Materialidade em R$
+    → Parecer acionável (dono + prazo)
+```
 
-### Laboratório B — Auditoria federal (4h)
+Você não recebe só “tem divergência”. Recebe **o que é achado, o que é alerta, o que é ruído** — e o que fazer na segunda-feira de manhã.
 
-1. Confirme **regime** (Real/Presumido/Simples).  
-2. Rode preflight de **tabelas de referência** (monofásico, TIPI…).  
-3. Se o preflight falhar, **registre a limitação** antes de concluir “sem achados”.  
-4. Gere demonstrativos de apuração e créditos de PIS/Cofins.  
-5. Liste riscos (crédito indevido) e oportunidades (crédito não tomado / teses) **em seções separadas**.  
-6. Exporte e apresente ao mentor/turma.
+### 3. Dois eixos que o mercado exige
 
-### Laboratório C — Compliance mensal (2h)
-
-Monte um calendário: todo dia 5, preflight + top 10 ERROS + donos. Use o template do [M12](./m12-compliance).
-
-### Laboratório D — Setor motopeças (opcional, 2h)
-
-Cruze o que aprendeu em [motopeças](/setores/motoparts/visao-geral) com ST, NCM e cadeia B2B: o que a auditoria digital precisa priorizar em distribuidora/importadora.
-
----
-
-## Mensagem comercial (para gestores e escritórios)
-
-| Sem FlowParse (cenário comum) | Com FlowParse no processo |
+| Eixo | Entrega típica |
 |---|---|
-| Fecha no PVA e torce | Cruza XML × SPED antes de dormir tranquilo |
-| Achado só na intimação | Achado no fechamento do mês |
-| Planilha heroica | Excel padronizado + trilha do item |
-| Conhecimento na cabeça de um analista | Método repetível multi-CNPJ |
-| Legado e RTC “depois a gente vê” | Legado sob controle enquanto a reforma avança |
+| **Estadual** | XML × EFD, não escriturado, valores, inventário, riscos de malha |
+| **Federal** | PIS/Cofins, créditos, ECF, saldo negativo, oportunidades × riscos separados |
 
-### Para quem é
+### 4. Escala para escritório e multi-CNPJ
 
-- **Empresas** com volume de NF e multi-UF;  
-- **Escritórios contábeis** que querem serviço de auditoria digital recorrente;  
-- **Analistas em formação** que precisam de laboratório realista;  
-- **Times de compliance** que medem risco em valor e prazo.
+Upload, processamento em fila, multiempresa e Excel padronizado: o mesmo método do analista sênior, **repetível** na carteira inteira.
 
-### Chamada
+### 5. Ponte com a Reforma Tributária
 
-Conheça planos e demonstrações em **[flowparse.com.br](https://flowparse.com.br)**.  
-Este guia educacional do repositório RTC é parceiro de conteúdo: forma o analista; o FlowParse **opera a auditoria**.
+Enquanto ICMS e PIS/Cofins ainda existem, a base precisa estar limpa. Quem entra em 2027–2029 com SPED inconsistente carrega o problema para o **IBS/CBS**. O FlowParse segura o legado enquanto você se prepara para a RTC — com o [programa de especialização](./programa) formando o time.
 
 ---
 
-## Ética de uso no curso
+## Para quem é (e para quem não é)
 
-- Não publique bases reais com CPF/dados sensíveis em repositórios públicos.  
-- Mascarar identificadores em trabalhos de turma.  
-- Não vender tese jurídica como se fosse botão de software.  
-- Sempre citar **data de corte** e premissas no parecer.
+### É para você se…
+
+- tem **volume de NF** e não confia só no “arquivo passou no PVA”;  
+- é **escritório** e quer vender auditoria digital recorrente (não só folha e DAS);  
+- é **indústria, atacado, importação ou comércio multi-UF** (ST, monofasia, créditos);  
+- está em **due diligence**, troca de contador ou projeto de compliance;  
+- quer **parecer** que o sócio e o jurídico entendem.
+
+### Não é para você se…
+
+- busca “jeitinho” para omitir receita;  
+- quer botão mágico que inventa tese sem lastro;  
+- não pretende agir sobre os ERROS encontrados.
+
+O FlowParse é ferramenta de **conformidade e inteligência fiscal** — alinhada ao [Módulo 9](./m09-auditoria-digital) e ao [Módulo 12](./m12-compliance) deste programa.
 
 ---
 
-## Ligações
+## Antes × depois (o argumento que fecha a reunião)
 
-- [Programa completo](./programa)  
-- [Módulo 8 — SPED](./m08-sped)  
-- [Módulo 9 — Auditoria digital](./m09-auditoria-digital)  
-- [Módulo 12 — Compliance](./m12-compliance)  
-- [Comunidades e software fiscal](/referencias/comunidades)
+| Sem FlowParse | Com FlowParse em [auditoriafiscal.duckdns.org](https://auditoriafiscal.duckdns.org/) |
+|---|---|
+| “O SPED validou” | “O SPED **bate com o XML e com a apuração**” |
+| Achado na intimação | Achado no **fechamento do mês** |
+| Planilha solta por analista | Excel + trilha item → chave → valor |
+| Conhecimento preso em uma pessoa | Método **ensinável e auditável** |
+| Cliente pergunta “e a reforma?” | Você mostra legado sob controle **e** trilha RTC |
+| Compliance reativo | Compliance **mensal** com top 10 ERROS e donos |
+
+---
+
+## Prova social do método (o que o time treina neste guia)
+
+Este portal forma o analista com o **mesmo raciocínio** que a plataforma opera:
+
+1. [Programa 180h — Analista Fiscal](./programa)  
+2. [Módulo 8 — SPED](./m08-sped)  
+3. [Módulo 9 — Auditoria digital](./m09-auditoria-digital)  
+4. [Módulo 12 — Compliance](./m12-compliance)  
+5. [Reforma Tributária — M13](./m13-reforma)  
+
+**Formamos a cabeça. O FlowParse executa a auditoria em escala.**
+
+---
+
+## Como começar em 3 passos
+
+1. **Acesse** [https://auditoriafiscal.duckdns.org/](https://auditoriafiscal.duckdns.org/)  
+2. **Envie** a base do período (XML + SPED) do CNPJ prioritário  
+3. **Receba** a leitura por severidade e o caminho de correção  
+
+Dúvida de enquadramento comercial (SaaS, auditoria completa por CNPJ/ano, escritório multiempresa)? Fale pelo próprio portal da plataforma — o time orienta o formato ideal para o seu volume.
+
+### CTA principal
+
+### → [Iniciar auditoria fiscal no FlowParse](https://auditoriafiscal.duckdns.org/)
+
+*Ambiente: https://auditoriafiscal.duckdns.org/*
+
+---
+
+## Laboratório do curso (alunos da especialização)
+
+Use a **mesma URL** da operação real. Preferencialmente bases fictícias ou autorizadas.
+
+### Lab A — Estadual (4h)
+
+Preflight de cobertura → análise → filtro ERRO → 3 falsos-positivos conscientes → Excel + parecer 1–2 páginas.
+
+### Lab B — Federal (4h)
+
+Regime → preflight de tabelas (monofásico/TIPI) → demonstrativos → riscos **separados** de oportunidades → apresentação.
+
+### Lab C — Compliance mensal (2h)
+
+Todo dia 5: preflight + top 10 ERROS + donos ([M12](./m12-compliance)).
+
+### Lab D — Setor (opcional)
+
+[Motopeças / ST / importação](/setores/motoparts/visao-geral): o que priorizar em distribuidora e importadora.
+
+---
+
+## Ética e transparência
+
+- Não exponha CPF/dados sensíveis em repositórios públicos.  
+- Severidade correta: nem tudo é “fraude”; nem tudo é “ok”.  
+- Software **não substitui** contador/advogado habilitado na decisão final.  
+- Sempre registre **data de corte** e premissas no parecer.
+
+---
+
+## Resumo em uma frase
+
+> Se o Fisco já cruza, **você precisa cruzar primeiro** — em [auditoriafiscal.duckdns.org](https://auditoriafiscal.duckdns.org/).
+
+[**Contratar / acessar FlowParse agora**](https://auditoriafiscal.duckdns.org/)

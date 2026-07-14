@@ -27,7 +27,7 @@ export default defineConfig({
       { text: 'Simples', link: '/simples/visao-geral' },
       { text: 'Imóveis', link: '/imoveis/situacao-atual' },
       { text: 'Motopeças', link: '/setores/motoparts/visao-geral' },
-      { text: 'FlowParse', link: '/especializacao/flowparse' },
+      { text: 'FlowParse', link: 'https://auditoriafiscal.duckdns.org/' },
       { text: 'Laboratório', link: '/laboratorio/casos' },
       { text: 'Fontes', link: '/referencias/fontes' }
     ],

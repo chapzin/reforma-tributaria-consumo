@@ -89,7 +89,7 @@ Este programa **não substitui** a trilha principal do portal; ele a **organiza 
 4. **Protocolo de resposta segura** (data de corte, operação, regimes, ano, fonte).
 5. **Projeto final**: dossiê de uma empresa fictícia ou anonimizada com parecer e plano 30/60/90.
 
-## Papel do FlowParse no curso
+## Papel do FlowParse no curso — e na sua empresa
 
 O [FlowParse](./flowparse) é a **plataforma de referência** do programa para:
 
@@ -98,7 +98,15 @@ O [FlowParse](./flowparse) é a **plataforma de referência** do programa para:
 - exportar Excel, montar parecer e priorizar ERRO / ALERTA / INFO;
 - treinar o analista a **não confiar só no PVA** — o PVA valida leiaute; a operação precisa cruzar a **realidade fiscal**.
 
-Site do produto: [flowparse.com.br](https://flowparse.com.br).
+### Contrate a auditoria digital
+
+| O que você precisa | Onde resolver |
+|---|---|
+| Rodar a plataforma agora | **[https://auditoriafiscal.duckdns.org/](https://auditoriafiscal.duckdns.org/)** |
+| Entender a proposta comercial e o método | [Página FlowParse (marketing + labs)](./flowparse) |
+| Formar o time que interpreta o parecer | Este programa (M8, M9, M12) |
+
+> **Frase de fechamento:** se o Fisco já cruza, você precisa cruzar primeiro — em [auditoriafiscal.duckdns.org](https://auditoriafiscal.duckdns.org/).
 
 ## Trilha sugerida por perfil
 

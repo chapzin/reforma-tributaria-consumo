@@ -102,7 +102,7 @@ Banco de apoio: [atividades do guia](/laboratorio/atividades) e [FAQ](/laborator
 ## Próximos passos do egresso
 
 1. Manter [observatório RTC](/referencias/observatorio).  
-2. Operar compliance mensal com [FlowParse](https://flowparse.com.br).  
+2. Operar compliance mensal com [FlowParse](https://auditoriafiscal.duckdns.org/).  
 3. Revisar [casos do laboratório](/laboratorio/casos) a cada mudança normativa.  
 4. Aprofundar setor de atuação (ex.: [motopeças](/setores/motoparts/visao-geral)).
 

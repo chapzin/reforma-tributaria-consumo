@@ -1,5 +1,13 @@
 # Histórico do guia
 
+## 1.2.1 — 14/07/2026
+
+### Marketing FlowParse + URL de conversão
+
+- URL oficial da plataforma: **https://auditoriafiscal.duckdns.org/**
+- Página de laboratório reescrita com proposta de valor, CTAs e argumento comercial.
+- Home, nav, módulos M8/M9/M12, programa e comunidades apontando para a URL de contratação.
+
 ## 1.2.0 — 14/07/2026
 
 ### Programa de Especialização para Analista Fiscal (180h)

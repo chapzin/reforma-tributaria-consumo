@@ -14,7 +14,8 @@ O repositório [nfe/rtc-calculadora-offline](https://github.com/nfe/rtc-calculad
 
 ## FlowParse — auditoria digital (laboratório do programa)
 
-O [FlowParse](https://flowparse.com.br) é a plataforma de referência do [Programa de Especialização para Analista Fiscal](/especializacao/programa) para parse de XML/SPED, auditoria estadual (XML × EFD), auditoria federal (PIS/Cofins, ECF, créditos) e exportação de pareceres. Conteúdo didático: [Laboratório FlowParse](/especializacao/flowparse).
+O [FlowParse](https://auditoriafiscal.duckdns.org/) é a plataforma de referência do [Programa de Especialização para Analista Fiscal](/especializacao/programa) para parse de XML/SPED, auditoria estadual (XML × EFD), auditoria federal (PIS/Cofins, ECF, créditos) e exportação de pareceres.  
+**Acesse:** [https://auditoriafiscal.duckdns.org/](https://auditoriafiscal.duckdns.org/) · Conteúdo e oferta: [Laboratório FlowParse](/especializacao/flowparse).
 
 ## Bibliotecas e issues
 
