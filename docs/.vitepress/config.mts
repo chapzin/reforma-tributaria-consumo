@@ -8,7 +8,7 @@ const repositoryUrl = process.env.GITHUB_REPOSITORY
 export default defineConfig({
   lang: 'pt-BR',
   title: 'Reforma Tributária — Guia Prático',
-  description: 'Guia aprofundado sobre IBS, CBS, LC 214/2025, LC 227/2026, Simples Nacional, imóveis e comércio/importação de motopeças.',
+  description: 'Guia RTC e Programa de Especialização para Analista Fiscal: CTN, ICMS, PIS/Cofins, SPED, auditoria digital FlowParse, retenções, compliance e reforma tributária.',
   base,
   cleanUrls: true,
   lastUpdated: true,
@@ -23,9 +23,11 @@ export default defineConfig({
     nav: [
       { text: 'Começar', link: '/como-usar' },
       { text: 'Trilha principal', link: '/fundamentos/necessidade' },
+      { text: 'Analista Fiscal', link: '/especializacao/programa' },
       { text: 'Simples', link: '/simples/visao-geral' },
       { text: 'Imóveis', link: '/imoveis/situacao-atual' },
       { text: 'Motopeças', link: '/setores/motoparts/visao-geral' },
+      { text: 'FlowParse', link: '/especializacao/flowparse' },
       { text: 'Laboratório', link: '/laboratorio/casos' },
       { text: 'Fontes', link: '/referencias/fontes' }
     ],
@@ -96,7 +98,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Módulo · Motopeças (distribuição e importação)', collapsed: false,
+        text: 'Módulo · Motopeças (distribuição e importação)', collapsed: true,
         items: [
           { text: '32. Visão setorial', link: '/setores/motoparts/visao-geral' },
           { text: '33. Importadora', link: '/setores/motoparts/importadora' },
@@ -104,6 +106,27 @@ export default defineConfig({
           { text: '35. Transição, ST e estoque', link: '/setores/motoparts/transicao-st-estoque' },
           { text: '36. Preço, crédito e caixa', link: '/setores/motoparts/preco-credito-caixa' },
           { text: '37. Checklist setorial', link: '/setores/motoparts/checklist' }
+        ]
+      },
+      {
+        text: 'Especialização · Analista Fiscal (180h)', collapsed: false,
+        items: [
+          { text: 'Programa e competências', link: '/especializacao/programa' },
+          { text: 'M1 · Fundamentos (20h)', link: '/especializacao/m01-fundamentos' },
+          { text: 'M2 · CTN e ilícitos (20h)', link: '/especializacao/m02-ctn' },
+          { text: 'M3 · Regimes e gestão (16h)', link: '/especializacao/m03-regimes' },
+          { text: 'M4 · ICMS (24h)', link: '/especializacao/m04-icms' },
+          { text: 'M5 · PIS/Cofins (24h)', link: '/especializacao/m05-pis-cofins' },
+          { text: 'M6 · ISS (4h)', link: '/especializacao/m06-iss' },
+          { text: 'M7 · IPI (4h)', link: '/especializacao/m07-ipi' },
+          { text: 'M8 · SPED (15h)', link: '/especializacao/m08-sped' },
+          { text: 'M9 · Auditoria digital (15h)', link: '/especializacao/m09-auditoria-digital' },
+          { text: 'M10 · Retenções (8h)', link: '/especializacao/m10-retencoes' },
+          { text: 'M11 · Retenções na apuração (6h)', link: '/especializacao/m11-retencoes-apuracao' },
+          { text: 'M12 · Compliance (8h)', link: '/especializacao/m12-compliance' },
+          { text: 'M13 · Reforma Tributária (16h)', link: '/especializacao/m13-reforma' },
+          { text: 'Laboratório FlowParse', link: '/especializacao/flowparse' },
+          { text: 'Avaliação e certificação', link: '/especializacao/avaliacao' }
         ]
       },
       {

@@ -6,10 +6,11 @@ Portal educacional, em português, sobre a EC 132/2023, a LC 214/2025 já consol
 
 ## Conteúdo
 
-- trilha principal em quatro unidades;
-- módulos especiais de Simples Nacional e locação de imóveis;
+- trilha principal em quatro unidades (Reforma Tributária do Consumo);
+- **Programa de Especialização para Analista Fiscal (180h)** — 13 módulos (CTN, ICMS, PIS/Cofins, ISS, IPI, SPED, auditoria digital, retenções, compliance, RTC);
+- laboratório e integração com **[FlowParse](https://flowparse.com.br)** (auditoria XML×SPED);
+- módulos especiais de Simples Nacional, locação de imóveis e motopeças;
 - comparativos, mapas mentais, casos, exercícios comentados e checklists;
-- simuladores didáticos para discutir crédito na cadeia e locação;
 - fontes oficiais, leitura profissional e sinais das comunidades de software fiscal;
 - busca local, navegação responsiva e publicação automática no GitHub Pages.
 

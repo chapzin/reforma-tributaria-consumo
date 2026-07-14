@@ -4,14 +4,14 @@ layout: home
 hero:
   name: "Reforma Tributária do Consumo"
   text: "da norma à decisão empresarial"
-  tagline: Um percurso aprofundado, visual e prático pela EC 132/2023, LC 214/2025, LC 227/2026, IBS, CBS, Simples Nacional, locação de imóveis e comércio/importação de motopeças.
+  tagline: Guia da Reforma Tributária do Consumo e Programa de Especialização para Analista Fiscal (180h) — com laboratório FlowParse.
   actions:
     - theme: brand
-      text: Começar a trilha
-      link: /como-usar
+      text: Especialização Analista Fiscal
+      link: /especializacao/programa
     - theme: alt
-      text: Ver calendário
-      link: /fundamentos/calendario
+      text: Trilha Reforma Tributária
+      link: /como-usar
 
 features:
   - title: Lei, técnica ou interpretação?
@@ -31,11 +31,13 @@ Ao concluir o percurso, você deverá conseguir explicar a arquitetura do IVA du
 <StatusNormativo tipo="interpretacao" titulo="Aviso profissional">Este guia é educacional. A conclusão de um caso exige legislação atualizada, documentos, contratos, dados contábeis e validação por profissionais habilitados.</StatusNormativo>
 
 <div class="learning-path">
-  <a href="./fundamentos/necessidade"><strong>Trilha principal · 16 capítulos</strong><span>Fundamentos, IVA dual, créditos, tributos substituídos e implementação.</span></a>
+  <a href="./especializacao/programa"><strong>Especialização · Analista Fiscal · 180h</strong><span>13 módulos: CTN, ICMS, PIS/Cofins, SPED, auditoria digital, retenções, compliance e RTC.</span></a>
+  <a href="./especializacao/flowparse"><strong>Laboratório FlowParse</strong><span>Auditoria XML×SPED, federal e parecer — ferramenta de referência do programa.</span></a>
+  <a href="./fundamentos/necessidade"><strong>Trilha principal · Reforma Tributária</strong><span>Fundamentos, IVA dual, créditos, tributos substituídos e implementação.</span></a>
   <a href="./simples/visao-geral"><strong>Especial · Simples Nacional</strong><span>DAS, crédito limitado, opção pelo regime regular e matriz de decisão.</span></a>
   <a href="./imoveis/situacao-atual"><strong>Especial · Locação de imóveis</strong><span>PF/PJ, incidência, limites, redutores, contratos e transição.</span></a>
   <a href="./setores/motoparts/visao-geral"><strong>Especial · Motopeças</strong><span>Importadora, distribuidora B2B, ST, estoque, preço e caixa na RTC.</span></a>
-  <a href="./laboratorio/casos"><strong>Laboratório aplicado</strong><span>Casos integradores, exercícios, gabarito e checklists de implantação.</span></a>
+  <a href="./laboratorio/casos"><strong>Laboratório RTC</strong><span>Casos integradores, exercícios, gabarito e checklists de implantação.</span></a>
 </div>
 
 ## Uma regra de ouro para todo o curso

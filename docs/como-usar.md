@@ -32,6 +32,7 @@ Um leiaute de NF-e pode estar em produção antes de determinada validação se 
 | Fiscal/ERP | capítulos 6–9 → documentos → projeto | mapear dados, regras e integrações |
 | Imobiliário | capítulos 5–9 → módulo imóveis | identificar enquadramento e cenários |
 | Comércio de peças / importação (motoparts) | capítulos 5–10 → importação e créditos → módulo motopeças → casos 7–9 | nacionalização, ST, destino, preço e caixa |
+| Analista fiscal (formação completa) | [Programa 180h](/especializacao/programa) → M1–M13 → [FlowParse](/especializacao/flowparse) → avaliação | CTN, indiretos, SPED, auditoria, retenções, compliance, RTC |
 | Gestor | comparação → calendário → decisão Simples → riscos | priorizar orçamento e governança |
 
 ## Carga horária sugerida
@@ -40,6 +41,7 @@ Um leiaute de NF-e pode estar em produção antes de determinada validação se 
 - Simples Nacional: 3 horas de conteúdo e 1 hora de laboratório.
 - Locação de imóveis: 3 horas de conteúdo e 1 hora de laboratório.
 - Motopeças (distribuição e importação): 4 horas de conteúdo e 2 horas de casos/checklist.
+- Especialização Analista Fiscal: **180 horas** (13 módulos + labs FlowParse + projeto RTC).
 
 ## Protocolo de resposta segura
 

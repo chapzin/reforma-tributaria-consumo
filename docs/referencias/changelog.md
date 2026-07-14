@@ -1,5 +1,16 @@
 # Histórico do guia
 
+## 1.2.0 — 14/07/2026
+
+### Programa de Especialização para Analista Fiscal (180h)
+
+- Hub do programa com competências, carga horária e pontos CFC indicativos.
+- Módulos 1–13: fundamentos, CTN, regimes, ICMS, PIS/Cofins, ISS, IPI, SPED, auditoria digital, retenções, compliance e Reforma Tributária.
+- Laboratório e propaganda ética do **FlowParse** (XML×SPED, auditoria federal, compliance contínuo).
+- Avaliação, rubricas e checklist de certificação.
+- Integração com a trilha RTC já existente (M13 como ponte).
+- Navegação, home e rotas de estudo atualizadas.
+
 ## 1.1.0 — 14/07/2026
 
 ### Módulo setorial · Motopeças (distribuição e importação)

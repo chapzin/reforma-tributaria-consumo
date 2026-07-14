@@ -12,6 +12,10 @@ A discussão [Links úteis sobre a Reforma Tributária](https://github.com/OCA/l
 
 O repositório [nfe/rtc-calculadora-offline](https://github.com/nfe/rtc-calculadora-offline) disponibiliza a calculadora oficial/beta em formato aberto. Use para compreender entradas, saídas e integração; confira versão, termos e ambiente antes de produção.
 
+## FlowParse — auditoria digital (laboratório do programa)
+
+O [FlowParse](https://flowparse.com.br) é a plataforma de referência do [Programa de Especialização para Analista Fiscal](/especializacao/programa) para parse de XML/SPED, auditoria estadual (XML × EFD), auditoria federal (PIS/Cofins, ECF, créditos) e exportação de pareceres. Conteúdo didático: [Laboratório FlowParse](/especializacao/flowparse).
+
 ## Bibliotecas e issues
 
 - [NFePHP](https://github.com/nfephp-org/sped-nfe) e [issue de RTC](https://github.com/nfephp-org/sped-nfe/issues/1274);
