@@ -69,6 +69,25 @@ Quando fontes divergem, o guia registra a divergência e evita uma conclusão ca
 - [PwC — quadro das alterações da LC 227](https://www.pwc.com.br/pt/thinking-about-taxes/tax-intelligence/2026/tax-intelligence-express-ed43-Aprovacao-do-PLP-108-24-no-Congresso-Nacional.pdf).
 - [CFC — sugestões técnicas à CBS](https://cfc.org.br/wp-content/uploads/2026/06/Documento_Tecnico_-RFB-CBS.pdf).
 
+## Comércio exterior, importação e setores de reposição
+
+- LC 214/2025 consolidada — **Título/capítulo de importação** (arts. 63 e seguintes: incidência, fato gerador, contribuinte, local, pagamento e créditos na cadeia).
+- [Receita — Entenda a RTC (transição 2026–2033, IPI, IS)](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/entenda).
+- [Decreto 12.955/2026 — CBS](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12955.htm) e [Resolução CGIBS 6/2026 — IBS](https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf) para procedimentos.
+- Legislação **estadual** de ICMS-ST de peças/acessórios automotivos e motociclísticos (convênios, protocolos, MVAs) — fonte primária por UF, enquanto o ICMS existir na transição.
+- Classificação NCM e atos de IPI/ZFM: acompanhar Receita, Suframa e listas de produtos concorrentes antes de assumir “IPI zero” em 2027.
+- Imposto Seletivo: LC 214 (campo e grupos) + **lei ordinária de alíquotas** (pendência monitorada no capítulo de IS).
+
+### Como o módulo de motopeças usa essas fontes
+
+| Tema setorial | Âncora normativa | Capítulo do guia |
+|---|---|---|
+| IBS/CBS na importação de peças | LC 214 arts. 63+ | [Importadora](/setores/motoparts/importadora) |
+| Crédito na revenda B2B | LC 214 arts. 47–60 | [Créditos](/impactos/creditos) · [Preço e caixa](/setores/motoparts/preco-credito-caixa) |
+| Destino na distribuição multiestado | LC 214 art. 11 e regras de bem móvel | [Distribuidora](/setores/motoparts/distribuidora) |
+| ST e estoque | EC 132 + legislação ICMS estadual + transição IBS | [ST e estoque](/setores/motoparts/transicao-st-estoque) |
+| IPI/ZFM e IS | Receita “Entenda a RTC” + LC 214 IS | [Seletivo e ZFM](/impactos/seletivo-zfm) |
+
 ## Regra de atualização
 
 Uma atualização do guia deve registrar: URL, data de acesso, dispositivo/versão, trecho afetado, decisão editorial, revisor e data de publicação. Se a fonte sumir, preserve metadados e substitua por repositório oficial, sem copiar integralmente conteúdo protegido.

@@ -36,9 +36,18 @@
 23. Monte um dossiê de crédito com nota, entrega, pagamento e uso empresarial.
 24. Redija um alerta de 100 palavras que diferencie lei, regulamento e NT.
 
+## Bloco E — motopeças (importação e distribuição)
+
+25. Explique, com base na LC 214, por que a importação de pastilhas de freio gera IBS/CBS mesmo que a empresa “só revenda”.
+26. Monte um fluxo de caixa de nacionalização × giro de 60 dias e diga onde o crédito entra na conta.
+27. Diferencie ST de ICMS e monofasia de IBS em uma frase cada e diga o erro de tratá-las como sinônimos.
+28. Um cliente regular e um do Simples (DAS) recebem a mesma proposta de kit a R$ 200 + tributos hipotéticos de 26%. Calcule o custo líquido de cada um e o desconto que equalizaria o regular se o crédito do fornecedor no DAS fosse só 1/4 do crédito “cheio”.
+29. Liste oito campos do inventário de estoque antes de 2027/2029 (NCM, ST, IPI, origem etc.).
+30. Redija um parágrafo ao comercial proibindo a frase “peça de moto paga Imposto Seletivo porque veículo está na lista”.
+
 ## Projeto final
 
-Escolha Simples ou locação. Produza um memorando de até cinco páginas com:
+Escolha **Simples**, **locação** ou **motopeças (importadora e/ou distribuidora)**. Produza um memorando de até cinco páginas com:
 
 - resumo executivo;
 - fatos/documentos;
@@ -48,6 +57,8 @@ Escolha Simples ou locação. Produza um memorando de até cinco páginas com:
 - riscos e pendências;
 - plano de ação 30/60/90 dias;
 - fontes e data de corte.
+
+Se escolher motopeças, anexe o [checklist setorial](/setores/motoparts/checklist) preenchido (mesmo que parcial).
 
 ## Rubrica
 

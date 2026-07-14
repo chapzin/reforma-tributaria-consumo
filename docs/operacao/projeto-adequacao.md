@@ -20,6 +20,7 @@
 3. Agrupe os 80% de valor e os 20% de exceções críticas.
 4. Identifique regimes, incentivos, contratos e créditos acumulados.
 5. Mapeie sistemas que criam ou alteram dado fiscal.
+6. Se for **importação/distribuição de peças** (motoparts/autopeças): mapeie NCM Pareto, ST por UF, giro de estoque, regimes de clientes e fluxo DI/DUIMP — use o [checklist setorial](/setores/motoparts/checklist).
 
 ### Entregável
 

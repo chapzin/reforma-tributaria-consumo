@@ -23,6 +23,17 @@ A substituição por IBS começa materialmente em 2029 e termina em 2033. Durant
 - obrigações e fiscalizações antigas sobrevivem aos fatos passados;
 - serviços passam a conviver com lógica de destino e crédito mais ampla.
 
+### Substituição tributária (ST) — leitura para comércio de peças
+
+Setores como **autopeças e motopeças** convivem há anos com ICMS-ST (MVA, pautas, convênios). Na RTC:
+
+1. a ST **permanece** enquanto o ICMS existir na transição, nos termos da legislação estadual;
+2. o **IBS não herda** automaticamente a monofasia da ST;
+3. estoques com ST embutida exigem inventário, política de preço e, quando cabível, ressarcimento pelas regras de ICMS;
+4. de 2029 a 2032 o motor precisa calcular **ICMS residual e IBS** na mesma operação.
+
+Para o roteiro setorial, veja [Transição, ST e estoque em motopeças](/setores/motoparts/transicao-st-estoque).
+
 ## Créditos de ICMS acumulados
 
 A EC 132 e a LC 227 disciplinam reconhecimento e aproveitamento após 2032, com homologação, atualização e compensação parcelada conforme a natureza. Não espere 2032 para sanear arquivos, laudos, CIAP, provas de exportação e composição do saldo.

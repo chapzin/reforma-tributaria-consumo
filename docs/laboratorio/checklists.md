@@ -79,6 +79,23 @@
 - [ ] custo de compliance e caixa;
 - [ ] decisão documentada por semestre.
 
+## Importadora / distribuidora de motopeças
+
+Checklist completo e detalhado: [Checklist setorial de motopeças](/setores/motoparts/checklist).
+
+Resumo executivo:
+
+- [ ] Pareto de NCM e mapa de ST por UF;
+- [ ] fluxo DI/DUIMP × IBS/CBS da importação × crédito;
+- [ ] destino e evidência de entrega multiestado;
+- [ ] preço por fora e propostas B2B regular × Simples/B2C;
+- [ ] inventário de estoque com ST/IPI embutidos;
+- [ ] score fiscal de fornecedor e fila de crédito bloqueado;
+- [ ] devolução/garantia de peça ponta a ponta;
+- [ ] testes dual ICMS+IBS (preparação 2029);
+- [ ] confirmação positiva de IS (sem analogia “automotivo”);
+- [ ] projeção de caixa: nacionalização × giro de estoque.
+
 ## Imóveis
 
 - [ ] titular/entidade e regime;

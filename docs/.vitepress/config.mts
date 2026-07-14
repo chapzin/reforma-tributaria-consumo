@@ -8,7 +8,7 @@ const repositoryUrl = process.env.GITHUB_REPOSITORY
 export default defineConfig({
   lang: 'pt-BR',
   title: 'Reforma Tributária — Guia Prático',
-  description: 'Guia aprofundado sobre IBS, CBS, LC 214/2025, LC 227/2026, Simples Nacional e imóveis.',
+  description: 'Guia aprofundado sobre IBS, CBS, LC 214/2025, LC 227/2026, Simples Nacional, imóveis e comércio/importação de motopeças.',
   base,
   cleanUrls: true,
   lastUpdated: true,
@@ -25,6 +25,7 @@ export default defineConfig({
       { text: 'Trilha principal', link: '/fundamentos/necessidade' },
       { text: 'Simples', link: '/simples/visao-geral' },
       { text: 'Imóveis', link: '/imoveis/situacao-atual' },
+      { text: 'Motopeças', link: '/setores/motoparts/visao-geral' },
       { text: 'Laboratório', link: '/laboratorio/casos' },
       { text: 'Fontes', link: '/referencias/fontes' }
     ],
@@ -92,6 +93,17 @@ export default defineConfig({
           { text: '24. Carga e simulações', link: '/imoveis/carga' },
           { text: '25. Planejamento responsável', link: '/imoveis/planejamento' },
           { text: '26. Contratos na transição', link: '/imoveis/contratos' }
+        ]
+      },
+      {
+        text: 'Módulo · Motopeças (distribuição e importação)', collapsed: false,
+        items: [
+          { text: '32. Visão setorial', link: '/setores/motoparts/visao-geral' },
+          { text: '33. Importadora', link: '/setores/motoparts/importadora' },
+          { text: '34. Distribuidora', link: '/setores/motoparts/distribuidora' },
+          { text: '35. Transição, ST e estoque', link: '/setores/motoparts/transicao-st-estoque' },
+          { text: '36. Preço, crédito e caixa', link: '/setores/motoparts/preco-credito-caixa' },
+          { text: '37. Checklist setorial', link: '/setores/motoparts/checklist' }
         ]
       },
       {

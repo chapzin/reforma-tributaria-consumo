@@ -1,5 +1,21 @@
 # Histórico do guia
 
+## 1.1.0 — 14/07/2026
+
+### Módulo setorial · Motopeças (distribuição e importação)
+
+- Visão setorial, importadora, distribuidora, transição ST/estoque, preço/crédito/caixa e checklist.
+- Casos integradores 7–9, gabarito, FAQs e checklist resumido no laboratório.
+- Reforço em incidência (importação), tributos vigentes (ST), fontes e glossário.
+- Navegação e home atualizadas com trilha “Motopeças”.
+
+### Premissas editoriais do módulo
+
+- reposição de peças no **regime padrão**, salvo hipótese legal específica;
+- ST de ICMS como **legado coexistente**, sem conversor automático para IBS;
+- IS em peças só com **confirmação positiva** (sem analogia “veículo = peça”);
+- simulações de alíquota sempre com selo de hipótese.
+
 ## 1.0.0 — 14/07/2026
 
 Primeira edição completa.

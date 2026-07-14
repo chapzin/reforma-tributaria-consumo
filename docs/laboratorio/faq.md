@@ -67,3 +67,45 @@ Não. Serve para ensinar sensibilidade. Use motor oficial/ERP atualizado, fontes
 ## Como manter o guia atual?
 
 Acompanhe Planalto, Câmara consolidada, Receita, CGIBS, NF-e/NFS-e e CGSN. Atualize o observatório e o changelog antes de alterar capítulos.
+
+## Motopeças: importação e distribuição
+
+### Peça de moto tem alíquota reduzida automática de IBS/CBS?
+
+Em regra, **não**. Reposição comercial segue o regime padrão, salvo hipótese legal específica comprovada por NCM/anexo e requisitos. “Setor automotivo” não é benefício.
+
+### A importação de pastilhas e kits paga IBS e CBS?
+
+Sim. A LC 214 incide sobre importação de bens, com regras próprias de fato gerador, contribuinte (importador) e pagamento. No regime regular, o IVA pago na importação alimenta a lógica de crédito nas saídas, se os requisitos forem cumpridos.
+
+### Quando pagar IBS/CBS na importação de peças?
+
+Na importação de bens materiais, a disciplina legal vincula o pagamento, em regra, à entrega dos bens submetidos a despacho para consumo, admitida antecipação. Confirme o artigo consolidado e o regulamento do período.
+
+### A substituição tributária de ICMS acaba em 2026?
+
+Não. O ICMS (e a ST) convivem na transição até a extinção do imposto para fatos novos em 2033, com redução gradual a partir de 2029. O IBS **não** herda automaticamente a monofasia da ST.
+
+### Estoque comprado com ST vira crédito de IBS?
+
+Não há conversor universal ST → IBS. Documente o legado, busque ressarcimento/homologação pelas regras de ICMS e precifique a liquidação do estoque antigo com modelo de margem próprio.
+
+### O Imposto Seletivo incide sobre toda motopeça?
+
+Não presuma. A LC 214 lista grupos como **veículos**; peças de reposição exigem **confirmação positiva** no texto e na lei ordinária de alíquotas. Não use analogia de balcão.
+
+### Oficina no Simples se credita do IBS/CBS da nota da distribuidora?
+
+Se mantém IBS/CBS no DAS, não toma crédito pelo regime regular. O que manda é o **preço de aquisição**. Já a distribuidora no regular debita normalmente na saída.
+
+### Cliente regular exige “crédito cheio”: o fornecedor no DAS resolve como?
+
+Ou migra para o **híbrido** (IBS/CBS no regular), ou negocia **desconto** que aproxime o custo líquido — o crédito do comprador no DAS é limitado ao IBS/CBS devido e informado pelo optante.
+
+### Importadora no Simples deve sair do Simples?
+
+Não automaticamente. Compare fatia B2B regular, créditos de importação no híbrido, compliance e caixa. Muitas vezes o debate é **híbrido**, não exclusão total.
+
+### Onde está o módulo setorial?
+
+Comece em [Motopeças — visão setorial](/setores/motoparts/visao-geral) e use os casos 7 a 9 do [laboratório](/laboratorio/casos).

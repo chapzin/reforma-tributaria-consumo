@@ -64,6 +64,19 @@ O erro clássico é o fiscal enxergar apenas a nota final, enquanto financeiro e
 
 Não são categorias intercambiáveis. Cada uma afeta débito, manutenção/anulação de crédito e documento de forma própria. Registre o fundamento legal no cadastro, e não apenas “0%”.
 
+## Importação de bens materiais (âncora para comércio exterior)
+
+Além da regra geral de fornecimento interno, a LC 214 disciplina a **importação**:
+
+- incidência ampla (art. 63), inclusive quando o importador não está no regime regular;
+- fato gerador próprio na entrada de bens de procedência estrangeira / despacho para consumo e hipóteses correlatas;
+- contribuinte típico: o **importador**;
+- alíquotas alinhadas às da aquisição do bem no País;
+- pagamento, em regra, vinculado à entrega dos bens no despacho para consumo (com possível antecipação);
+- no regime regular, o IVA da importação integra a lógica de **crédito** nas saídas posteriores, se cumpridos os requisitos.
+
+Para o setor de reposição de motocicletas (importadora + distribuidora), o módulo prático está em [Importadora de motopeças](/setores/motoparts/importadora).
+
 ## Fonte primária
 
-Consulte especialmente arts. 3º a 11 da [LC 214 consolidada](https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.pdf) e as regras específicas da operação.
+Consulte especialmente arts. 3º a 11 e o capítulo de importação (arts. 63 e seguintes) da [LC 214 consolidada](https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.pdf) e as regras específicas da operação.

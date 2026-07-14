@@ -14,6 +14,10 @@ O IS é federal e busca desestimular bens e serviços prejudiciais à saúde ou 
 
 A incidência é, em regra, monofásica conforme o grupo. Exportações e operações específicas recebem disciplina própria. Energia elétrica e telecomunicações estão fora do IS, e a lei também protege categorias que não podem ser alcançadas em determinadas condições.
 
+### Peças de reposição (motoparts / autopeças)
+
+A menção a **veículos** no campo do IS **não** autoriza, por analogia comercial, tributar automaticamente pastilhas, kits, faróis ou acessórios como se fossem o bem principal. O procedimento correto é: (1) ler o texto legal e anexos/atos; (2) classificar o NCM; (3) só então modelar monofasia e efeito na base do IBS/CBS. Enquanto a alíquota dependa de lei ordinária, o cálculo permanece condicionado. No setor de motopeças, veja também [Transição, ST e estoque](/setores/motoparts/transicao-st-estoque).
+
 ## Alíquota: o ponto ainda aberto
 
 A Constituição reserva as alíquotas do IS à lei ordinária, podendo ser específicas ou ad valorem. A LC 214 define bases, limites e critérios, mas não autoriza substituir a lei ordinária por uma estimativa de apresentação.

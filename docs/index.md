@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Reforma Tributária do Consumo"
   text: "da norma à decisão empresarial"
-  tagline: Um percurso aprofundado, visual e prático pela EC 132/2023, LC 214/2025, LC 227/2026, IBS, CBS, Simples Nacional e locação de imóveis.
+  tagline: Um percurso aprofundado, visual e prático pela EC 132/2023, LC 214/2025, LC 227/2026, IBS, CBS, Simples Nacional, locação de imóveis e comércio/importação de motopeças.
   actions:
     - theme: brand
       text: Começar a trilha
@@ -34,6 +34,7 @@ Ao concluir o percurso, você deverá conseguir explicar a arquitetura do IVA du
   <a href="./fundamentos/necessidade"><strong>Trilha principal · 16 capítulos</strong><span>Fundamentos, IVA dual, créditos, tributos substituídos e implementação.</span></a>
   <a href="./simples/visao-geral"><strong>Especial · Simples Nacional</strong><span>DAS, crédito limitado, opção pelo regime regular e matriz de decisão.</span></a>
   <a href="./imoveis/situacao-atual"><strong>Especial · Locação de imóveis</strong><span>PF/PJ, incidência, limites, redutores, contratos e transição.</span></a>
+  <a href="./setores/motoparts/visao-geral"><strong>Especial · Motopeças</strong><span>Importadora, distribuidora B2B, ST, estoque, preço e caixa na RTC.</span></a>
   <a href="./laboratorio/casos"><strong>Laboratório aplicado</strong><span>Casos integradores, exercícios, gabarito e checklists de implantação.</span></a>
 </div>
 

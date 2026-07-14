@@ -21,6 +21,10 @@
 | **Redutor social** | dedução legal de base para certas operações residenciais, inclusive R$ 600 mensais por imóvel em locação residencial, sujeito à atualização |
 | **Split payment** | segregação e recolhimento de IBS/CBS no fluxo do pagamento, por prestadores e sistemas de pagamento |
 | **Uso ou consumo pessoal** | aquisições que não geram crédito nas hipóteses legais; exige atenção a bens disponibilizados a sócios, empregados e familiares |
+| **Importação (IBS/CBS)** | entrada de bem/serviço do exterior no campo do art. 63 da LC 214; na mercadoria física, fato gerador e pagamento próprios do capítulo de importação |
+| **ST (substituição tributária de ICMS)** | antecipação/retenção de ICMS na cadeia (comum em peças); convive na transição e **não** se confunde com monofasia automática de IBS |
+| **Custo líquido do cliente** | preço cheio menos crédito de IBS/CBS apropriável; métrica central em B2B de reposição (motoparts/autopeças) |
+| **Nacionalização** | conjunto de atos e pagamentos que liberam a mercadoria importada para o mercado interno (II, IPI/IS se houver, IBS/CBS, despesas) |
 
 ## Três pares que não são sinônimos
 

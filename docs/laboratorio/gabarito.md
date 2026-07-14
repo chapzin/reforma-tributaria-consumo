@@ -47,6 +47,33 @@
 - art. 487 quando aplicável;
 - contratos, crédito do locatário e custos de reestruturação.
 
+### Caso 7 — Importadora de motopeças (pontos esperados)
+
+- art. 63 e capítulo de importação: incidência ampla; contribuinte importador; fato gerador na entrada/despacho para consumo conforme hipóteses legais;
+- pagamento ligado à entrega no despacho para consumo (com possível antecipação) — citar consolidação;
+- crédito no regular exige regime, objeto empresarial, DFe/aduaneiro e extinção do débito;
+- giro de 75 dias = IVA da importação financiando estoque; projetar caixa;
+- devolução/defeito com estorno e trilha aduaneira;
+- separar II, IPI/ZFM, IS (sem presunção), destino da revenda e frete.
+
+### Caso 8 — Distribuidora com ST (pontos esperados)
+
+- B2B regular compra custo líquido; Simples/B2C compram preço cheio;
+- ST é legado de ICMS; IBS não monofásico por herança da ST;
+- 2029: dualidade de motor e de preço;
+- desconto ≈ diferença entre crédito “cheio” hipotético e crédito limitado do DAS;
+- score de fornecedor e KPIs de crédito bloqueado;
+- duas propostas comerciais com ressalva de requisitos do crédito.
+
+### Caso 9 — Estoque e IPI (pontos esperados)
+
+- inventário por origem/ST/IPI/NCM;
+- IPI zero em 2027 não é automático se concorrente ZFM;
+- política de liquidação de ST antes/depois de 2029;
+- dossiê de ressarcimento/homologação de ICMS;
+- IS em peça só com confirmação positiva;
+- plano 90 dias com donos e data de corte.
+
 ## Como avaliar uma resposta divergente
 
 Uma resposta pode estar correta mesmo diferente do gabarito se explicitar premissas, usar a norma consolidada e demonstrar cálculo. Penalize certeza excessiva, fonte secundária usada como lei e número sem data de corte.

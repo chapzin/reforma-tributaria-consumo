@@ -58,6 +58,16 @@ Se o fornecedor opta pelo regime regular de IBS/CBS, a dinâmica do crédito se 
 
 Dois fornecedores vendem pelo mesmo preço total. Um emite corretamente e tem débitos extintos; outro acumula divergências que atrasam reconhecimento. Mesmo com crédito juridicamente discutível, o segundo pode gerar custo financeiro e operacional ao comprador. A gestão de fornecedores passa a incluir “qualidade fiscal do crédito”.
 
+## Aplicação rápida: distribuidora de motopeças
+
+- **Entrada importada própria:** crédito de IBS/CBS da importação (regular) × tempo de giro do estoque.
+- **Compra de indústria regular:** crédito “cheio” se DFe e extinção ok.
+- **Compra de optante no DAS:** crédito **limitado** ao devido no Simples e informado — afeta preço líquido do próximo elo.
+- **Cliente oficina no DAS:** não se credita no regular; a negociação é de **preço cheio**.
+- **Cliente rede no regular:** compara custo líquido; exige XML limpo.
+
+Roteiro setorial: [Preço, crédito e caixa em motopeças](/setores/motoparts/preco-credito-caixa).
+
 ## Ressarcimento
 
 Créditos que excedem débitos podem ser compensados em períodos seguintes ou ressarcidos segundo procedimentos e prazos. Exportadores e investidores devem modelar tempo de análise, não apenas valor nominal. A LC 214 prevê prazos diferenciados e mecanismos de fiscalização; consulte o regulamento vigente no pedido.

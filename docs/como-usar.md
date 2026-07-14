@@ -31,6 +31,7 @@ Um leiaute de NF-e pode estar em produção antes de determinada validação se 
 | Contabilidade | capítulos 7–16 → Simples → checklists | organizar diagnóstico e implantação |
 | Fiscal/ERP | capítulos 6–9 → documentos → projeto | mapear dados, regras e integrações |
 | Imobiliário | capítulos 5–9 → módulo imóveis | identificar enquadramento e cenários |
+| Comércio de peças / importação (motoparts) | capítulos 5–10 → importação e créditos → módulo motopeças → casos 7–9 | nacionalização, ST, destino, preço e caixa |
 | Gestor | comparação → calendário → decisão Simples → riscos | priorizar orçamento e governança |
 
 ## Carga horária sugerida
@@ -38,6 +39,7 @@ Um leiaute de NF-e pode estar em produção antes de determinada validação se 
 - Trilha principal: 12 horas de leitura orientada, 4 horas de discussão e 4 horas de atividades.
 - Simples Nacional: 3 horas de conteúdo e 1 hora de laboratório.
 - Locação de imóveis: 3 horas de conteúdo e 1 hora de laboratório.
+- Motopeças (distribuição e importação): 4 horas de conteúdo e 2 horas de casos/checklist.
 
 ## Protocolo de resposta segura
 

@@ -47,7 +47,8 @@ Os percentuais são proporções das alíquotas de transição, não uma afirma�
 - inventário de operações, estabelecimentos, regimes e DFe;
 - cadastro de produto/serviço, NCM, NBS e cClassTrib;
 - mapa de fornecedores e clientes por regime;
-- cláusulas tributárias, descontos, reembolsos e pagamentos.
+- cláusulas tributárias, descontos, reembolsos e pagamentos;
+- no comércio de peças: ST por UF, giro de estoque e fluxo de importação (se houver) — ver [módulo motopeças](/setores/motoparts/visao-geral).
 
 ### Antes de cada virada
 
